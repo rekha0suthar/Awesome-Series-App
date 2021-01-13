@@ -5,6 +5,7 @@ import Sdata from './Sdata';
 const Netflix = () => {
     return (
         <>
+        <h1 className="title"> Awesome Netflix Series </h1>
             <Cards
                 key={Sdata[0].id}
                 imgsrc={Sdata[0].imgsrc}

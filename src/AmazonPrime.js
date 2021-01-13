@@ -5,6 +5,7 @@ import Sdata from './Sdata';
 const AmazonPrime = () => {
     return (
         <>
+        <h1 className="title"> Awesome AmazonPrime Series </h1>
             <Cards
                 key={Sdata[3].id}
                 imgsrc={Sdata[3].imgsrc}
